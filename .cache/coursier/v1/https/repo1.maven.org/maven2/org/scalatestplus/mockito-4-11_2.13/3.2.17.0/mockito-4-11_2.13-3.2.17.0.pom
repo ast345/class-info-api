@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.scalatestplus</groupId>
+    <artifactId>mockito-4-11_2.13</artifactId>
+    <packaging>bundle</packaging>
+    <description>mockito-4.11</description>
+    <url>https://github.com/scalatest/scalatestplus-mockito</url>
+    <version>3.2.17.0</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>mockito-4.11</name>
+    <organization>
+        <name>org.scalatestplus</name>
+        <url>https://github.com/scalatest/scalatestplus-mockito</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>bvenners</id>
+            <name>Bill Venners</name>
+            <url>https://github.com/bvenners</url>
+            <email>bill@artima.com</email>
+        </developer>
+        <developer>
+            <id>cheeseng</id>
+            <name>Chua Chee Seng</name>
+            <url>https://github.com/cheeseng</url>
+            <email>cheeseng@amaseng.com</email>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/scalatest/scalatestplus-mockito</url>
+        <connection>scm:git:git@github.com:scalatest/scalatestplus-mockito.git</connection>
+        <developerConnection> scm:git:git@github.com:scalatest/scalatestplus-mockito.git </developerConnection>
+    </scm>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest-core_2.13</artifactId>
+            <version>3.2.17</version>
+        </dependency>
+        <!-- scoped dependency "org.scalatest" % "scalatest-funsuite_2.13" % "3.2.17" % "test" has been omitted -->
+    </dependencies>
+</project>

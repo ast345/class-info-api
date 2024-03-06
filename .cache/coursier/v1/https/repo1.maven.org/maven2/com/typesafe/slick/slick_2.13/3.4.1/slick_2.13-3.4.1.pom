@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.typesafe.slick</groupId>
+    <artifactId>slick_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>Scala Language-Integrated Connection Kit</description>
+    <url>https://scala-slick.org</url>
+    <version>3.4.1</version>
+    <licenses>
+        <license>
+            <name>Two-clause BSD-style license</name>
+            <url>https://github.com/slick/slick/blob/main/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>Slick</name>
+    <inceptionYear>2008</inceptionYear>
+    <organization>
+        <name>Typesafe</name>
+        <url>https://scala-slick.org</url>
+    </organization>
+    <scm>
+        <url>https://github.com/slick/slick</url>
+        <connection>scm:git:git@github.com:slick/slick.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>szeiger</id>
+            <name>Stefan Zeiger</name>
+            <url>http://szeiger.de</url>
+        </developer>
+        <developer>
+            <id>hvesalai</id>
+            <name>Heikki Vesalainen</name>
+            <url>https://github.com/hvesalai/</url>
+        </developer>
+    </developers>
+    <properties>
+        <info.versionScheme>pvp</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reactivestreams</groupId>
+            <artifactId>reactive-streams</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-collection-compat_2.13</artifactId>
+            <version>2.8.1</version>
+        </dependency>
+    </dependencies>
+</project>
